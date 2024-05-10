@@ -44,7 +44,7 @@ public class SecurityConfig {
 
     @Autowired
     private SecurityCustomUserDetailService userDetailService;
-
+    
     // configuraiton of authentication providerfor spring security
     @Bean
     public DaoAuthenticationProvider authenticationProvider() {
