@@ -23,6 +23,7 @@ public class UserForm {
     @Size(min = 3, message = "Min 3 Characters is required")
     private String name;
 
+   // @Pattern
     @Email(message = "Invalid Email Address")
     @NotBlank(message = "Email is required")
     private String email;

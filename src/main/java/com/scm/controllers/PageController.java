@@ -69,6 +69,9 @@ public class PageController {
         return new String("login");
     }
 
+
+    
+
     @GetMapping("/register")
     public String register(Model model) {
 
